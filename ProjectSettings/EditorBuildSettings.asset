@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Splash.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: c49e5631b1aaed545998df1398f43ae2
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 50d05de6a0f624044bed578946b8f455
+  - enabled: 1
+    path: Assets/Scenes/AR.unity
+    guid: 90a8fd2f6b6d24d40afc75318bfeb29f
+  - enabled: 1
+    path: Assets/Scenes/Measure.unity
+    guid: c26e34dfbb448b5498fa08a70fb1804c
+  m_configObjects:
+    com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: aa99ab409424ec1409aaea7fbceb9dae,
+      type: 2}
+    com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 261615c7773809a4fb9e02b355d4834b,
+      type: 2}
+    com.unity.xr.management.arcore_loader: {fileID: 11400000, guid: d0d30104ad33c6b48bdf3ab3c53b39ef,
+      type: 2}
+    com.unity.xr.management.arkit_loader: {fileID: 11400000, guid: 6e897ef7746fb0342a589a965e01a0af,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a9043148c5a7ce341bb3b55a326600c4,
+      type: 2}
