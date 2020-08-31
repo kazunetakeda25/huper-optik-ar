@@ -119,11 +119,10 @@ public static class GlobalReferences
 
 public enum BuildSceneNames
 {
-    Splash = 0, 
-    Login = 1, 
-    Main = 2, 
-    FilmVisualizer = 3, 
-    Measure = 4
+    Splash = 0,  
+    Main = 1, 
+    FilmVisualizer = 2, 
+    Measure = 3
 }
 
 [Serializable]

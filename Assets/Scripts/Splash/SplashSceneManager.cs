@@ -7,6 +7,6 @@ public class SplashSceneManager : MonoBehaviour
     private IEnumerator Start()
     {
         yield return new WaitForSeconds(8);
-        SceneManager.LoadSceneAsync((int)BuildSceneNames.Login);
+        SceneManager.LoadSceneAsync((int)BuildSceneNames.Main);
     }
 }

@@ -2,7 +2,7 @@
 *   NatShare
 *   Copyright (c) 2019 Yusuf Olokoba
 */
-
+#if UNITY_IOS
 namespace NatShare {
 
     using UnityEditor;
@@ -28,3 +28,4 @@ namespace NatShare {
 		}
     }
 }
+#endif
